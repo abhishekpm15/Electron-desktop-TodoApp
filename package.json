@@ -1,0 +1,21 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "A simple notes app",
+  "main": "main.js",
+  "scripts": {
+    "prebuild": "node todos.js",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "reactjs"
+  ],
+  "author": "abhishek",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^33.2.1",
+    "electron-store": "^8.2.0"
+  }
+}

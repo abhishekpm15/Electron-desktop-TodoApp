@@ -1,0 +1,7 @@
+Todo-App-darwin-x64/
+Todo-App-linux-arm64/
+Todo-App-linux-x64/
+dist/
+node_modules/
+app/build
+app/node_modules
